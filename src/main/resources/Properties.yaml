@@ -1,0 +1,36 @@
+nome-env:
+   dev: dev
+   uat: uat
+   hom: hom  
+
+login: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/account/v1/login
+
+cadastro:  https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/account/v1/createUser
+
+logout: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/account/v1/logout
+   
+payWall: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/customers/user/
+
+userinfo: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/account/v1/userinfo
+
+getuserinfo: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/account/v1/userinfo/
+
+getuserinfoid: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/account/v1/users/findById/
+
+getPaymentProfilePorId: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/payment_profiles/
+
+postPaymentProfiles: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/payment_profiles
+
+putPaymentProfile: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/subscriptions/
+
+getSubscriptionsID: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/subscriptions/
+postCriarSubscription: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/subscriptions
+postCancelarSubscription: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/subscriptions/
+customer: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/customers
+
+customerGet: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/customers/
+
+customerPut: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/customers/
+
+getPlans: https://dof769wfcj.execute-api.us-east-1.amazonaws.com/stg/payment/v1/plans
+    

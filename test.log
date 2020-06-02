@@ -1,0 +1,1110 @@
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+Maven home: C:\maven
+Java version: 11.0.6, vendor: Amazon.com Inc., runtime: C:\Program Files\Amazon Corretto\jdk11.0.6_10
+Default locale: pt_BR, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: javax.annotation.* < plexus.core
+[DEBUG]   Imported: javax.annotation.security.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.inject.* < plexus.core
+[DEBUG]   Imported: javax.enterprise.util.* < plexus.core
+[DEBUG]   Imported: javax.inject.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution.scope < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.* < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.artifact < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.collection < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.deployment < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.graph < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.installation < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.internal.impl < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.metadata < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.repository < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.resolution < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.spi < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.transfer < plexus.core
+[DEBUG]   Imported: org.eclipse.aether.version < plexus.core
+[DEBUG]   Imported: org.fusesource.jansi.* < plexus.core
+[DEBUG]   Imported: org.slf4j.* < plexus.core
+[DEBUG]   Imported: org.slf4j.event.* < plexus.core
+[DEBUG]   Imported: org.slf4j.helpers.* < plexus.core
+[DEBUG]   Imported: org.slf4j.spi.* < plexus.core
+[DEBUG] Populating class realm maven.api
+[INFO] Error stacktraces are turned on.
+[DEBUG] Message scheme: color
+[DEBUG] Message styles: debug info warning error success failure strong mojo project
+[DEBUG] Reading global settings from C:\maven\conf\settings.xml
+[DEBUG] Reading user settings from C:\Users\carlosteixeira\.m2\settings.xml
+[DEBUG] Reading global toolchains from C:\maven\conf\toolchains.xml
+[DEBUG] Reading user toolchains from C:\Users\carlosteixeira\.m2\toolchains.xml
+[DEBUG] Using local repository at C:\Users\carlosteixeira\.m2\repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10.0 for C:\Users\carlosteixeira\.m2\repository
+[INFO] Scanning for projects...
+[DEBUG] Extension realms for project br.com.exame:back:jar:0.0.1-SNAPSHOT: (none)
+[DEBUG] Looking up lifecycle mappings for packaging jar from ClassRealm[plexus.core, parent: null]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: br.com.exame:back:jar:0.0.1-SNAPSHOT
+[DEBUG] Tasks:   [install]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO] 
+[INFO] -------------------------< br.com.exame:back >--------------------------
+[INFO] Building Projeto de automacao do back end 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       br.com.exame:back:0.0.1-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, runtime, test]
+[DEBUG] Repositories (dependencies): [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] Repositories (plugins)     : [central (https://repo.maven.apache.org/maven2, default, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <encoding default-value="${project.reporting.outputEncoding}">${surefire.encoding}</encoding>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <excludesFile>${surefire.excludesFile}</excludesFile>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessExitTimeoutInSeconds default-value="30">${surefire.exitTimeout}</forkedProcessExitTimeoutInSeconds>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <includes>
+    <include>br/com/exame/runner/*.java</include>
+  </includes>
+  <includesFile>${surefire.includesFile}</includesFile>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <junitPlatformArtifactName default-value="org.junit.platform:junit-platform-engine">${junitPlatformArtifactName}</junitPlatformArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>all</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <parallelOptimized default-value="true">${parallelOptimized}</parallelOptimized>
+  <parallelTestsTimeoutForcedInSeconds>${surefire.parallel.forcedTimeout}</parallelTestsTimeoutForcedInSeconds>
+  <parallelTestsTimeoutInSeconds>${surefire.parallel.timeout}</parallelTestsTimeoutInSeconds>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <projectBuildDirectory default-value="${project.build.directory}"/>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <rerunFailingTestsCount default-value="0">${surefire.rerunFailingTestsCount}</rerunFailingTestsCount>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem">${surefire.runOrder}</runOrder>
+  <shutdown default-value="testset">${surefire.shutdown}</shutdown>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipAfterFailureCount default-value="0">${surefire.skipAfterFailureCount}</skipAfterFailureCount>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <suiteXmlFiles>${surefire.suiteXmlFiles}</suiteXmlFiles>
+  <tempDir default-value="surefire">${tempDir}</tempDir>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>20</threadCount>
+  <threadCountClasses default-value="0">${threadCountClasses}</threadCountClasses>
+  <threadCountMethods default-value="0">${threadCountMethods}</threadCountMethods>
+  <threadCountSuites default-value="0">${threadCountSuites}</threadCountSuites>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-jar-plugin:2.4:jar (default-jar)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <defaultManifestFile default-value="${project.build.outputDirectory}/META-INF/MANIFEST.MF"/>
+  <finalName default-value="${project.build.finalName}">${jar.finalName}</finalName>
+  <forceCreation default-value="false">${jar.forceCreation}</forceCreation>
+  <outputDirectory default-value="${project.build.directory}"/>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+  <skipIfEmpty default-value="false">${jar.skipIfEmpty}</skipIfEmpty>
+  <useDefaultManifestFile default-value="false">${jar.useDefaultManifestFile}</useDefaultManifestFile>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-install-plugin:2.4:install (default-install)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <artifact default-value="${project.artifact}"/>
+  <attachedArtifacts default-value="${project.attachedArtifacts}"/>
+  <createChecksum default-value="false">${createChecksum}</createChecksum>
+  <localRepository>${localRepository}</localRepository>
+  <packaging default-value="${project.packaging}"/>
+  <pomFile default-value="${project.file}"/>
+  <skip default-value="false">${maven.install.skip}</skip>
+  <updateReleaseInfo default-value="false">${updateReleaseInfo}</updateReleaseInfo>
+</configuration>
+[DEBUG] =======================================================================
+[WARNING] The POM for com.sun.xml.bind:jaxb-osgi:jar:2.2.10 is invalid, transitive dependencies (if any) will not be available: 1 problem was encountered while building the effective model for com.sun.xml.bind:jaxb-osgi:2.2.10
+[ERROR] 'dependencyManagement.dependencies.dependency.systemPath' for com.sun:tools:jar must specify an absolute path but is ${tools.jar} @ 
+
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=641300, ConflictMarker.markTime=254000, ConflictMarker.nodeCount=55, ConflictIdSorter.graphTime=309000, ConflictIdSorter.topsortTime=250100, ConflictIdSorter.conflictIdCount=35, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=3875900, ConflictResolver.conflictItemCount=50, DefaultDependencyCollector.collectTime=311042300, DefaultDependencyCollector.transformTime=7143200}
+[DEBUG] br.com.exame:back:jar:0.0.1-SNAPSHOT
+[DEBUG]    com.github.javafaker:javafaker:jar:1.0.2:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.5:compile
+[DEBUG]       org.yaml:snakeyaml:jar:android:1.23:compile
+[DEBUG]       com.github.mifmif:generex:jar:1.0.2:compile
+[DEBUG]          dk.brics.automaton:automaton:jar:1.11-8:compile
+[DEBUG]    org.yaml:snakeyaml:jar:1.25:compile
+[DEBUG]    com.itextpdf:itextpdf:jar:5.5.13.1:compile
+[DEBUG]    commons-io:commons-io:jar:2.5:compile
+[DEBUG]    com.google.code.gson:gson:jar:2.8.6:compile
+[DEBUG]    junit:junit:jar:4.12:compile
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]    io.rest-assured:rest-assured:jar:3.3.0:compile
+[DEBUG]       org.codehaus.groovy:groovy:jar:2.4.15:compile
+[DEBUG]       org.codehaus.groovy:groovy-xml:jar:2.4.15:compile
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.5.3:compile
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.4.6:compile
+[DEBUG]          commons-logging:commons-logging:jar:1.2:compile
+[DEBUG]          commons-codec:commons-codec:jar:1.9:compile
+[DEBUG]       org.apache.httpcomponents:httpmime:jar:4.5.3:compile
+[DEBUG]       org.hamcrest:hamcrest-library:jar:1.3:compile
+[DEBUG]       org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile
+[DEBUG]       io.rest-assured:json-path:jar:3.3.0:compile
+[DEBUG]          org.codehaus.groovy:groovy-json:jar:2.4.15:compile
+[DEBUG]          io.rest-assured:rest-assured-common:jar:3.3.0:compile
+[DEBUG]       io.rest-assured:xml-path:jar:3.3.0:compile
+[DEBUG]          javax.xml.bind:jaxb-api:jar:2.2.12:compile
+[DEBUG]          com.sun.xml.bind:jaxb-osgi:jar:2.2.10:compile
+[DEBUG]          org.apache.sling:org.apache.sling.javax.activation:jar:0.1.0:compile
+[DEBUG]             javax.activation:activation:jar:1.1.1:compile
+[DEBUG]    info.cukes:cucumber-java:jar:1.2.5:compile
+[DEBUG]       info.cukes:cucumber-core:jar:1.2.5:compile
+[DEBUG]          info.cukes:cucumber-html:jar:0.2.3:compile
+[DEBUG]          info.cukes:cucumber-jvm-deps:jar:1.0.5:compile
+[DEBUG]          info.cukes:gherkin:jar:2.12.2:compile
+[DEBUG]    info.cukes:cucumber-junit:jar:1.2.4:compile
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ back ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=188400, ConflictMarker.markTime=117100, ConflictMarker.nodeCount=77, ConflictIdSorter.graphTime=110200, ConflictIdSorter.topsortTime=20300, ConflictIdSorter.conflictIdCount=26, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=1007800, ConflictResolver.conflictItemCount=74, DefaultDependencyCollector.collectTime=103465700, DefaultDependencyCollector.transformTime=1524900}
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: br.com.exame:back:0.0.1-SNAPSHOT @ C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@f3021cb
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.TERM=xterm, env.NUMBER_OF_PROCESSORS=8, env.USERPROFILE=C:\Users\carlosteixeira, java.specification.version=11, sun.cpu.isalist=amd64, sun.arch.data.model=64, env.PROGRAMW6432=C:\Program Files, java.vendor.url=https://aws.amazon.com/corretto/, env.OS=Windows_NT, sun.boot.library.path=C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X install, env.SYSTEMROOT=C:\Windows, jdk.debug=release, maven.version=3.6.3, java.specification.vendor=Oracle Corporation, java.version.date=2020-01-14, java.home=C:\Program Files\Amazon Corretto\jdk11.0.6_10, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man, env.LOCALAPPDATA=C:\Users\carlosteixeira\AppData\Local, env.USERDOMAIN_ROAMINGPROFILE=BRQ, env.SSH_ASKPASS=C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.6+10-LTS, env.PATH=C:\Users\carlosteixeira\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\carlosteixeira\bin;C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\maven\bin;C:\Program Files\Java\jdk1.8.0_241;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\carlosteixeira\AppData\Local\Microsoft\WindowsApps;C:\Users\carlosteixeira\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl, env.PUBLIC=C:\Users\Public, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, file.encoding=Cp1252, java.vendor.version=Corretto-11.0.6.10.1, env.COMPUTERNAME=NBBV030665, env.HOSTNAME=NBBV030665, env.HOMEPATH=\Users\carlosteixeira, env.SHLVL=1, env.APPDATA=C:\Users\carlosteixeira\AppData\Roaming, java.io.tmpdir=C:\Users\CARLOS~1\AppData\Local\Temp\, java.version=11.0.6, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.MINGW_CHOST=x86_64-w64-mingw32, java.library.path=C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\carlosteixeira\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\carlosteixeira\bin;C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\maven\bin;C:\Program Files\Java\jdk1.8.0_241;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\carlosteixeira\AppData\Local\Microsoft\WindowsApps;C:\Users\carlosteixeira\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;., java.vendor=Amazon.com Inc., classworlds.conf=C:/maven/bin/m2.conf, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, env.LANG=pt_BR.UTF-8, user.timezone=, os.name=Windows 10, java.vm.specification.version=11, env.DISPLAY=needs-to-be-defined, env.=::=::\, maven.compiler.source=11, user.home=C:\Users\carlosteixeira, env.MSYSTEM_CHOST=x86_64-w64-mingw32, env.ALLUSERSPROFILE=C:\ProgramData, env.SESSIONNAME=Console, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, env.MSYSTEM_PREFIX=C:/Program Files/Git/mingw64, path.separator=;, os.version=10.0, env.ORIGINAL_TMP=C:/Users/CARLOS~1/AppData/Local/Temp, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, java.vm.name=OpenJDK 64-Bit Server VM, env.SHELL=C:\Program Files\Git\usr\bin\bash.exe, env.EXEPATH=C:\Program Files\Git, env.USERNAME=carlosteixeira, os.arch=amd64, maven.multiModuleProjectDirectory=C:/Users/carlosteixeira/Documents/Exame/QA/Automacao/Back, env.CONFIG_SITE=C:/Program Files/Git/mingw64/etc/config.site, env.MAVEN_PROJECTBASEDIR=C:/Users/carlosteixeira/Documents/Exame/QA/Automacao/Back, java.vm.info=mixed mode, env.FPS_BROWSER_USER_PROFILE_STRING=Default, env.TEMP=C:\Users\CARLOS~1\AppData\Local\Temp, java.class.version=55.0, env.ORIGINAL_TEMP=C:/Users/CARLOS~1/AppData/Local/Temp, awt.toolkit=sun.awt.windows.WToolkit, env.MSYSTEM=MINGW64, env.ONEDRIVE=C:\Users\carlosteixeira\OneDrive, sun.jnu.encoding=Cp1252, env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), maven.home=C:\maven, env.JAVA_HOME=C:/Program Files/Amazon Corretto/jdk11.0.6_10, env.PROGRAMFILES=C:\Program Files, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, env.PROCESSOR_REVISION=8e0c, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel, env.PROGRAMDATA=C:\ProgramData, user.name=carlosteixeira, env.PLINK_PROTOCOL=ssh, env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.SYSTEMDRIVE=C:, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.PROCESSOR_LEVEL=6, env.HOMEDRIVE=C:, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, env.TMP=C:\Users\CARLOS~1\AppData\Local\Temp, env.ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal, sun.os.patch.level=, maven.compiler.target=11, env.TMPDIR=C:\Users\CARLOS~1\AppData\Local\Temp, env.LOGONSERVER=\\RJSERVER2, env.INFOPATH=C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info, library.jansi.path=C:/maven/lib/jansi-native, env.WINDIR=C:\Windows, env.OLDPWD=C:/Users/carlosteixeira/Documents/Exame/QA/Automacao/Back, env.PWD=C:/Users/carlosteixeira/Documents/Exame/QA/Automacao/Back, env.USERDNSDOMAIN=BRQ.COM, env.MINGW_PREFIX=C:/Program Files/Git/mingw64, java.class.path=C:/maven/boot/plexus-classworlds-2.6.0.jar, env.HOME=C:\Users\carlosteixeira, java.vm.vendor=Amazon.com Inc., env.PROCESSOR_ARCHITECTURE=AMD64, user.variant=, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, maven.conf=C:/maven/conf, sun.java.launcher=SUN_STANDARD, user.country=BR, env.USERDOMAIN=BRQ, env.COMSPEC=C:\Windows\system32\cmd.exe, sun.cpu.endian=little, user.language=pt, env.ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\carlosteixeira\bin;C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\maven\bin;C:\Program Files\Java\jdk1.8.0_241;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\carlosteixeira\AppData\Local\Microsoft\WindowsApps;C:\Users\carlosteixeira\AppData\Local\GitHubDesktop\bin, env.MINGW_PACKAGE_PREFIX=mingw-w64-x86_64, env.PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig, env.MSYSTEM_CARCH=x86_64, java.runtime.name=OpenJDK Runtime Environment, project.build.sourceEncoding=UTF-8, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.MAVEN_CMD_LINE_ARGS= -X install, java.vendor.url.bug=https://github.com/corretto/corretto-11/issues/, user.dir=C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back, java.vm.version=11.0.6+10-LTS}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\resources
+excludes []
+includes []
+[DEBUG] ignoreDelta true
+[INFO] Copying 1 resource
+[DEBUG] file Properties.yaml has a filtered file extension
+[DEBUG] copy C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\resources\Properties.yaml to C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes\Properties.yaml
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ back ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=438700, ConflictMarker.markTime=221000, ConflictMarker.nodeCount=160, ConflictIdSorter.graphTime=119700, ConflictIdSorter.topsortTime=34200, ConflictIdSorter.conflictIdCount=43, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=920700, ConflictResolver.conflictItemCount=63, DefaultDependencyCollector.collectTime=187697900, DefaultDependencyCollector.transformTime=1765200}
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile (version managed from default)
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back
+[DEBUG]   (f) buildDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target
+[DEBUG]   (f) classpathElements = [C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes, C:\Users\carlosteixeira\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar, C:\Users\carlosteixeira\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar, C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar, C:\Users\carlosteixeira\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar, C:\Users\carlosteixeira\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar, C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar, C:\Users\carlosteixeira\.m2\repository\com\itextpdf\itextpdf\5.5.13.1\itextpdf-5.5.13.1.jar, C:\Users\carlosteixeira\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar, C:\Users\carlosteixeira\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar, C:\Users\carlosteixeira\.m2\repository\junit\junit\4.12\junit-4.12.jar, C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar, C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar, C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar, C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar, C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar, C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar, C:\Users\carlosteixeira\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar, C:\Users\carlosteixeira\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar, C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar, C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar, C:\Users\carlosteixeira\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar, C:\Users\carlosteixeira\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar, C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar, C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar, C:\Users\carlosteixeira\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar, C:\Users\carlosteixeira\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar, C:\Users\carlosteixeira\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar, C:\Users\carlosteixeira\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar, C:\Users\carlosteixeira\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\generated-sources\annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes
+[DEBUG]   (f) projectArtifact = br.com.exame:back:jar:0.0.1-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 11
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 11
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@f3021cb
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@f3021cb
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java]
+[DEBUG] Classpath: [C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes
+ C:\Users\carlosteixeira\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar
+ C:\Users\carlosteixeira\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+ C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar
+ C:\Users\carlosteixeira\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar
+ C:\Users\carlosteixeira\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar
+ C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar
+ C:\Users\carlosteixeira\.m2\repository\com\itextpdf\itextpdf\5.5.13.1\itextpdf-5.5.13.1.jar
+ C:\Users\carlosteixeira\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar
+ C:\Users\carlosteixeira\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+ C:\Users\carlosteixeira\.m2\repository\junit\junit\4.12\junit-4.12.jar
+ C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+ C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar
+ C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar
+ C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar
+ C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar
+ C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar
+ C:\Users\carlosteixeira\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+ C:\Users\carlosteixeira\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar
+ C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar
+ C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar
+ C:\Users\carlosteixeira\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar
+ C:\Users\carlosteixeira\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar
+ C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar
+ C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar
+ C:\Users\carlosteixeira\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar
+ C:\Users\carlosteixeira\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar
+ C:\Users\carlosteixeira\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar
+ C:\Users\carlosteixeira\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar
+ C:\Users\carlosteixeira\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar]
+[DEBUG] Output directory: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ back ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: br.com.exame:back:0.0.1-SNAPSHOT @ C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\test\resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@f3021cb
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {env.TERM=xterm, env.NUMBER_OF_PROCESSORS=8, env.USERPROFILE=C:\Users\carlosteixeira, java.specification.version=11, sun.cpu.isalist=amd64, sun.arch.data.model=64, env.PROGRAMW6432=C:\Program Files, java.vendor.url=https://aws.amazon.com/corretto/, env.OS=Windows_NT, sun.boot.library.path=C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X install, env.SYSTEMROOT=C:\Windows, jdk.debug=release, maven.version=3.6.3, java.specification.vendor=Oracle Corporation, java.version.date=2020-01-14, java.home=C:\Program Files\Amazon Corretto\jdk11.0.6_10, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, env.MANPATH=C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man, env.LOCALAPPDATA=C:\Users\carlosteixeira\AppData\Local, env.USERDOMAIN_ROAMINGPROFILE=BRQ, env.SSH_ASKPASS=C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass, user.script=, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=11.0.6+10-LTS, env.PATH=C:\Users\carlosteixeira\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\carlosteixeira\bin;C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\maven\bin;C:\Program Files\Java\jdk1.8.0_241;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\carlosteixeira\AppData\Local\Microsoft\WindowsApps;C:\Users\carlosteixeira\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl, env.PUBLIC=C:\Users\Public, env.COMMONPROGRAMW6432=C:\Program Files\Common Files, file.encoding=Cp1252, java.vendor.version=Corretto-11.0.6.10.1, env.COMPUTERNAME=NBBV030665, env.HOSTNAME=NBBV030665, env.HOMEPATH=\Users\carlosteixeira, env.SHLVL=1, env.APPDATA=C:\Users\carlosteixeira\AppData\Roaming, java.io.tmpdir=C:\Users\CARLOS~1\AppData\Local\Temp\, java.version=11.0.6, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.awt.windows.WPrinterJob, env.MINGW_CHOST=x86_64-w64-mingw32, java.library.path=C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\carlosteixeira\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\carlosteixeira\bin;C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\maven\bin;C:\Program Files\Java\jdk1.8.0_241;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\carlosteixeira\AppData\Local\Microsoft\WindowsApps;C:\Users\carlosteixeira\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;., java.vendor=Amazon.com Inc., classworlds.conf=C:/maven/bin/m2.conf, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, env.LANG=pt_BR.UTF-8, user.timezone=, os.name=Windows 10, java.vm.specification.version=11, env.DISPLAY=needs-to-be-defined, env.=::=::\, maven.compiler.source=11, user.home=C:\Users\carlosteixeira, env.MSYSTEM_CHOST=x86_64-w64-mingw32, env.ALLUSERSPROFILE=C:\ProgramData, env.SESSIONNAME=Console, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, env.MSYSTEM_PREFIX=C:/Program Files/Git/mingw64, path.separator=;, os.version=10.0, env.ORIGINAL_TMP=C:/Users/CARLOS~1/AppData/Local/Temp, env.PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, java.vm.name=OpenJDK 64-Bit Server VM, env.SHELL=C:\Program Files\Git\usr\bin\bash.exe, env.EXEPATH=C:\Program Files\Git, env.USERNAME=carlosteixeira, os.arch=amd64, maven.multiModuleProjectDirectory=C:/Users/carlosteixeira/Documents/Exame/QA/Automacao/Back, env.CONFIG_SITE=C:/Program Files/Git/mingw64/etc/config.site, env.MAVEN_PROJECTBASEDIR=C:/Users/carlosteixeira/Documents/Exame/QA/Automacao/Back, java.vm.info=mixed mode, env.FPS_BROWSER_USER_PROFILE_STRING=Default, env.TEMP=C:\Users\CARLOS~1\AppData\Local\Temp, java.class.version=55.0, env.ORIGINAL_TEMP=C:/Users/CARLOS~1/AppData/Local/Temp, awt.toolkit=sun.awt.windows.WToolkit, env.MSYSTEM=MINGW64, env.ONEDRIVE=C:\Users\carlosteixeira\OneDrive, sun.jnu.encoding=Cp1252, env.FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, maven.build.version=Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f), maven.home=C:\maven, env.JAVA_HOME=C:/Program Files/Amazon Corretto/jdk11.0.6_10, env.PROGRAMFILES=C:\Program Files, file.separator=\, java.vm.compressedOopsMode=Zero based, line.separator=
+, env.PROCESSOR_REVISION=8e0c, env.PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 12, GenuineIntel, env.PROGRAMDATA=C:\ProgramData, user.name=carlosteixeira, env.PLINK_PROTOCOL=ssh, env.DRIVERDATA=C:\Windows\System32\Drivers\DriverData, env.SYSTEMDRIVE=C:, env.PROGRAMFILES(X86)=C:\Program Files (x86), env.PROCESSOR_LEVEL=6, env.HOMEDRIVE=C:, env.PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules, env.TMP=C:\Users\CARLOS~1\AppData\Local\Temp, env.ACLOCAL_PATH=C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal, sun.os.patch.level=, maven.compiler.target=11, env.TMPDIR=C:\Users\CARLOS~1\AppData\Local\Temp, env.LOGONSERVER=\\RJSERVER2, env.INFOPATH=C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info, library.jansi.path=C:/maven/lib/jansi-native, env.WINDIR=C:\Windows, env.OLDPWD=C:/Users/carlosteixeira/Documents/Exame/QA/Automacao/Back, env.PWD=C:/Users/carlosteixeira/Documents/Exame/QA/Automacao/Back, env.USERDNSDOMAIN=BRQ.COM, env.MINGW_PREFIX=C:/Program Files/Git/mingw64, java.class.path=C:/maven/boot/plexus-classworlds-2.6.0.jar, env.HOME=C:\Users\carlosteixeira, java.vm.vendor=Amazon.com Inc., env.PROCESSOR_ARCHITECTURE=AMD64, user.variant=, env.COMMONPROGRAMFILES=C:\Program Files\Common Files, maven.conf=C:/maven/conf, sun.java.launcher=SUN_STANDARD, user.country=BR, env.USERDOMAIN=BRQ, env.COMSPEC=C:\Windows\system32\cmd.exe, sun.cpu.endian=little, user.language=pt, env.ORIGINAL_PATH=C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\carlosteixeira\bin;C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\maven\bin;C:\Program Files\Java\jdk1.8.0_241;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\carlosteixeira\AppData\Local\Microsoft\WindowsApps;C:\Users\carlosteixeira\AppData\Local\GitHubDesktop\bin, env.MINGW_PACKAGE_PREFIX=mingw-w64-x86_64, env.PKG_CONFIG_PATH=C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig, env.MSYSTEM_CARCH=x86_64, java.runtime.name=OpenJDK Runtime Environment, project.build.sourceEncoding=UTF-8, env.COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files, env.MAVEN_CMD_LINE_ARGS= -X install, java.vendor.url.bug=https://github.com/corretto/corretto-11/issues/, user.dir=C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back, java.vm.version=11.0.6+10-LTS}
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[DEBUG] resource with targetPath null
+directory C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\test\resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\test\resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ back ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back
+[DEBUG]   (f) buildDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target
+[DEBUG]   (f) classpathElements = [C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes, C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes, C:\Users\carlosteixeira\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar, C:\Users\carlosteixeira\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar, C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar, C:\Users\carlosteixeira\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar, C:\Users\carlosteixeira\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar, C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar, C:\Users\carlosteixeira\.m2\repository\com\itextpdf\itextpdf\5.5.13.1\itextpdf-5.5.13.1.jar, C:\Users\carlosteixeira\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar, C:\Users\carlosteixeira\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar, C:\Users\carlosteixeira\.m2\repository\junit\junit\4.12\junit-4.12.jar, C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar, C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar, C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar, C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar, C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar, C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar, C:\Users\carlosteixeira\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar, C:\Users\carlosteixeira\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar, C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar, C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar, C:\Users\carlosteixeira\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar, C:\Users\carlosteixeira\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar, C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar, C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar, C:\Users\carlosteixeira\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar, C:\Users\carlosteixeira\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar, C:\Users\carlosteixeira\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar, C:\Users\carlosteixeira\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar, C:\Users\carlosteixeira\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar, C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar]
+[DEBUG]   (f) compileSourceRoots = [C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) encoding = UTF-8
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\generated-test-sources\test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 11
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 11
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@f3021cb
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@f3021cb
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src]
+[DEBUG] Classpath: [C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes
+ C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes
+ C:\Users\carlosteixeira\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar
+ C:\Users\carlosteixeira\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+ C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar
+ C:\Users\carlosteixeira\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar
+ C:\Users\carlosteixeira\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar
+ C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar
+ C:\Users\carlosteixeira\.m2\repository\com\itextpdf\itextpdf\5.5.13.1\itextpdf-5.5.13.1.jar
+ C:\Users\carlosteixeira\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar
+ C:\Users\carlosteixeira\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+ C:\Users\carlosteixeira\.m2\repository\junit\junit\4.12\junit-4.12.jar
+ C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+ C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar
+ C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar
+ C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar
+ C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar
+ C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar
+ C:\Users\carlosteixeira\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+ C:\Users\carlosteixeira\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar
+ C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar
+ C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar
+ C:\Users\carlosteixeira\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar
+ C:\Users\carlosteixeira\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar
+ C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar
+ C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar
+ C:\Users\carlosteixeira\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar
+ C:\Users\carlosteixeira\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar
+ C:\Users\carlosteixeira\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar
+ C:\Users\carlosteixeira\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar
+ C:\Users\carlosteixeira\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar
+ C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar]
+[DEBUG] Output directory: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\Subscription.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\core\PDFGenerator.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\Address.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\Login.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\BuscarSubscriptionsPorIDSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroUsuarioInvalidoCpfCnpjSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\BuscarPaymentProfilePorIDSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroUsuarioSemCpfSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\LoginIncorretoSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\PayWall.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroAlteracaoCustomerSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\utils\GeradorCPF.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\servicos\Resposta.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\LoginVazioBrancoSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CriarPaymentProfileSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\Phones.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroBuscarCustomerSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\servicos\Authenticacao.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\PaymentProfiles.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\ConfirmForgotPassword.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\LoginSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CriarSubscriptionSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\utils\YamlHelper.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroUsuarioSemTelefoneSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\Logout.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\test\java\br\com\exame\runner\Runner.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\Customer.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroUsuarioPhoneForaPadraoSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\CreateUser.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\servicos\ServicosImpl.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\BuscarTodosOsPlanosSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroUsuarioPhoneInvalidoSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroUsuarioSemLastnameSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CancelarAssinaturaSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroUsuarioCorretoSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroUsuarioSemFirstnameSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\PayWallValidarSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\servicos\Servicos.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\LogoutCorretoSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\pojos\Users.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroCustomerCorretoSteps.java
+[DEBUG] Stale source detected: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src\main\java\br\com\exame\steps\CadastroUsuarioSenhaIncorretaSteps.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes
+[DEBUG]  C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\com\itextpdf\itextpdf\5.5.13.1\itextpdf-5.5.13.1.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\junit\junit\4.12\junit-4.12.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar
+[DEBUG]  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar
+[DEBUG] Source roots:
+[DEBUG]  C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src
+[DEBUG] Command line options:
+[DEBUG] -d C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes -classpath C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes;C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes;C:\Users\carlosteixeira\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\carlosteixeira\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\carlosteixeira\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\carlosteixeira\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar;C:\Users\carlosteixeira\.m2\repository\com\itextpdf\itextpdf\5.5.13.1\itextpdf-5.5.13.1.jar;C:\Users\carlosteixeira\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\carlosteixeira\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\carlosteixeira\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar;C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar;C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar;C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\carlosteixeira\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\carlosteixeira\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\carlosteixeira\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\carlosteixeira\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar;C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar;C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar;C:\Users\carlosteixeira\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar;C:\Users\carlosteixeira\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar;C:\Users\carlosteixeira\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar;C:\Users\carlosteixeira\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar;C:\Users\carlosteixeira\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\carlosteixeira\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar; -sourcepath C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src; -s C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\generated-test-sources\test-annotations -g -nowarn -target 11 -source 11 -encoding UTF-8
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 42 source files to C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ back ---
+[DEBUG] Dependency collection stats: {ConflictMarker.analyzeTime=290500, ConflictMarker.markTime=63300, ConflictMarker.nodeCount=114, ConflictIdSorter.graphTime=153000, ConflictIdSorter.topsortTime=27900, ConflictIdSorter.conflictIdCount=37, ConflictIdSorter.conflictIdCycleCount=0, ConflictResolver.totalTime=895000, ConflictResolver.conflictItemCount=79, DefaultDependencyCollector.collectTime=52492300, DefaultDependencyCollector.transformTime=1455000}
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.22.2
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.22.2:compile
+[DEBUG]       org.apache.maven:maven-plugin-api:jar:2.2.1:compile (version managed from default)
+[DEBUG]       org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5.2:compile (scope managed from default) (version managed from default)
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.22.2:compile (version managed from default)
+[DEBUG]          org.apache.maven.surefire:surefire-logger-api:jar:2.22.2:compile (version managed from default)
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:2.22.2:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.15:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:4.12:compile (version managed from default)
+[DEBUG]                org.hamcrest:hamcrest-core:jar:1.3:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.apache.maven:maven-settings:jar:2.2.1:compile (version managed from default)
+[DEBUG]          org.apache.maven:maven-profile:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.2.1:compile
+[DEBUG]             backport-util-concurrent:backport-util-concurrent:jar:3.1:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.2.1:compile
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.11:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.2.1:compile (version managed from default)
+[DEBUG]       org.apache.maven:maven-core:jar:2.2.1:compile (version managed from default) (exclusions managed from default)
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile
+[DEBUG]          org.slf4j:slf4j-jdk14:jar:1.5.6:runtime
+[DEBUG]             org.slf4j:slf4j-api:jar:1.5.6:runtime
+[DEBUG]          org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile (version managed from default)
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.2.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1:compile
+[DEBUG]          org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]             org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]       org.apache.maven:maven-toolchain:jar:2.2.1:compile (version managed from default)
+[DEBUG]       org.codehaus.plexus:plexus-java:jar:0.9.10:compile (version managed from default)
+[DEBUG]          org.ow2.asm:asm:jar:6.2:compile
+[DEBUG]          com.thoughtworks.qdox:qdox:jar:2.0-M8:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.22.2
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.22.2
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.22.2
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.22.2
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.22.2
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5.2
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.22.2
+[DEBUG]   Included: org.apache.maven.surefire:surefire-logger-api:jar:2.22.2
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.22.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.15
+[DEBUG]   Included: junit:junit:jar:4.12
+[DEBUG]   Included: org.hamcrest:hamcrest-core:jar:1.3
+[DEBUG]   Included: backport-util-concurrent:backport-util-concurrent:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.11
+[DEBUG]   Included: org.slf4j:slf4j-jdk14:jar:1.5.6
+[DEBUG]   Included: org.slf4j:jcl-over-slf4j:jar:1.5.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:3.0
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-java:jar:0.9.10
+[DEBUG]   Included: org.ow2.asm:asm:jar:6.2
+[DEBUG]   Included: com.thoughtworks.qdox:qdox:jar:2.0-M8
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.22.2, parent: jdk.internal.loader.ClassLoaders$AppClassLoader@30946e09]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) forkedProcessExitTimeoutInSeconds = 30
+[DEBUG]   (s) includes = [br/com/exame/runner/*.java]
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) junitPlatformArtifactName = org.junit.platform:junit-platform-engine
+[DEBUG]   (s) localRepository =       id: local
+      url: file:///C:/Users/carlosteixeira/.m2/repository/
+   layout: default
+snapshots: [enabled => true, update => always]
+ releases: [enabled => true, update => always]
+
+[DEBUG]   (s) parallel = all
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) parallelOptimized = true
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.22.2:, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.22.2:compile, org.apache.maven:maven-plugin-api=org.apache.maven:maven-plugin-api:jar:2.2.1:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.5.2:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.22.2:compile, org.apache.maven.surefire:surefire-logger-api=org.apache.maven.surefire:surefire-logger-api:jar:2.22.2:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.22.2:compile, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.2.1:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.15:compile, org.apache.maven:maven-plugin-descriptor=org.apache.maven:maven-plugin-descriptor:jar:2.2.1:compile, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile, junit:junit=junit:junit:jar:4.12:compile, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:compile, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.2.1:compile, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.2.1:compile, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.2.1:compile, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.2.1:compile, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:compile, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.2.1:compile, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.11:compile, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.2.1:compile, org.apache.maven:maven-core=org.apache.maven:maven-core:jar:2.2.1:compile, org.apache.maven:maven-plugin-parameter-documenter=org.apache.maven:maven-plugin-parameter-documenter:jar:2.2.1:compile, org.slf4j:slf4j-jdk14=org.slf4j:slf4j-jdk14:jar:1.5.6:runtime, org.slf4j:slf4j-api=org.slf4j:slf4j-api:jar:1.5.6:runtime, org.slf4j:jcl-over-slf4j=org.slf4j:jcl-over-slf4j:jar:1.5.6:runtime, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:3.0:compile, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.2.1:compile, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.2.1:compile, org.apache.maven:maven-monitor=org.apache.maven:maven-monitor:jar:2.2.1:compile, classworlds:classworlds=classworlds:classworlds:jar:1.1:compile, org.sonatype.plexus:plexus-sec-dispatcher=org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher=org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.maven:maven-toolchain=org.apache.maven:maven-toolchain:jar:2.2.1:compile, org.codehaus.plexus:plexus-java=org.codehaus.plexus:plexus-java:jar:0.9.10:compile, org.ow2.asm:asm=org.ow2.asm:asm:jar:6.2:compile, com.thoughtworks.qdox:qdox=com.thoughtworks.qdox:qdox:jar:2.0-M8:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.22.2:help'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {com.github.javafaker:javafaker=com.github.javafaker:javafaker:jar:1.0.2:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.5:compile, org.yaml:snakeyaml=org.yaml:snakeyaml:jar:1.25:compile, com.github.mifmif:generex=com.github.mifmif:generex:jar:1.0.2:compile, dk.brics.automaton:automaton=dk.brics.automaton:automaton:jar:1.11-8:compile, com.itextpdf:itextpdf=com.itextpdf:itextpdf:jar:5.5.13.1:compile, commons-io:commons-io=commons-io:commons-io:jar:2.5:compile, com.google.code.gson:gson=com.google.code.gson:gson:jar:2.8.6:compile, junit:junit=junit:junit:jar:4.12:compile, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:compile, io.rest-assured:rest-assured=io.rest-assured:rest-assured:jar:3.3.0:compile, org.codehaus.groovy:groovy=org.codehaus.groovy:groovy:jar:2.4.15:compile, org.codehaus.groovy:groovy-xml=org.codehaus.groovy:groovy-xml:jar:2.4.15:compile, org.apache.httpcomponents:httpclient=org.apache.httpcomponents:httpclient:jar:4.5.3:compile, org.apache.httpcomponents:httpcore=org.apache.httpcomponents:httpcore:jar:4.4.6:compile, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.2:compile, commons-codec:commons-codec=commons-codec:commons-codec:jar:1.9:compile, org.apache.httpcomponents:httpmime=org.apache.httpcomponents:httpmime:jar:4.5.3:compile, org.hamcrest:hamcrest-library=org.hamcrest:hamcrest-library:jar:1.3:compile, org.ccil.cowan.tagsoup:tagsoup=org.ccil.cowan.tagsoup:tagsoup:jar:1.2.1:compile, io.rest-assured:json-path=io.rest-assured:json-path:jar:3.3.0:compile, org.codehaus.groovy:groovy-json=org.codehaus.groovy:groovy-json:jar:2.4.15:compile, io.rest-assured:rest-assured-common=io.rest-assured:rest-assured-common:jar:3.3.0:compile, io.rest-assured:xml-path=io.rest-assured:xml-path:jar:3.3.0:compile, javax.xml.bind:jaxb-api=javax.xml.bind:jaxb-api:jar:2.2.12:compile, com.sun.xml.bind:jaxb-osgi=com.sun.xml.bind:jaxb-osgi:jar:2.2.10:compile, org.apache.sling:org.apache.sling.javax.activation=org.apache.sling:org.apache.sling.javax.activation:jar:0.1.0:compile, javax.activation:activation=javax.activation:activation:jar:1.1.1:compile, info.cukes:cucumber-java=info.cukes:cucumber-java:jar:1.2.5:compile, info.cukes:cucumber-core=info.cukes:cucumber-core:jar:1.2.5:compile, info.cukes:cucumber-html=info.cukes:cucumber-html:jar:0.2.3:compile, info.cukes:cucumber-jvm-deps=info.cukes:cucumber-jvm-deps:jar:1.0.5:compile, info.cukes:gherkin=info.cukes:gherkin:jar:2.12.2:compile, info.cukes:cucumber-junit=info.cukes:cucumber-junit:jar:1.2.4:compile}
+[DEBUG]   (s) projectBuildDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [      id: central
+      url: https://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\surefire-reports
+[DEBUG]   (f) rerunFailingTestsCount = 0
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (f) shutdown = testset
+[DEBUG]   (s) skip = false
+[DEBUG]   (f) skipAfterFailureCount = 0
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) suiteXmlFiles = []
+[DEBUG]   (s) tempDir = surefire
+[DEBUG]   (s) testClassesDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\src
+[DEBUG]   (s) threadCount = 20
+[DEBUG]   (s) threadCountClasses = 0
+[DEBUG]   (s) threadCountMethods = 0
+[DEBUG]   (s) threadCountSuites = 0
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back
+[DEBUG]   (s) project = MavenProject: br.com.exame:back:0.0.1-SNAPSHOT @ C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@f3021cb
+[DEBUG] -- end configuration --
+[DEBUG] Surefire report directory: C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\surefire-reports
+[DEBUG] Setting system property [basedir]=[C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back]
+[DEBUG] Setting system property [user.dir]=[C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back]
+[DEBUG] Setting system property [localRepository]=[C:\Users\carlosteixeira\.m2\repository]
+[DEBUG] parallel='all', perCoreThreadCount=true, threadCount=20, useUnlimitedThreads=false, threadCountSuites=0, threadCountClasses=0, threadCountMethods=0, parallelOptimized=true
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-booter:jar:2.22.2:compile (selected for compile)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.22.2:compile (selected for compile)
+[DEBUG]       org.apache.maven.surefire:surefire-logger-api:jar:2.22.2:compile (selected for compile)
+[DEBUG] Adding to surefire booter test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-booter\2.22.2\surefire-booter-2.22.2.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.2\surefire-api-2.22.2.jar Scope: compile
+[DEBUG] Adding to surefire booter test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.2\surefire-logger-api-2.22.2.jar Scope: compile
+[DEBUG] Using JVM: C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin\java with Java version 11
+[DEBUG] dummy:dummy:jar:1.0 (selected for null)
+[DEBUG]   org.apache.maven.surefire:surefire-junit47:jar:2.22.2:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:common-junit48:jar:2.22.2:test (selected for test)
+[DEBUG]       org.apache.maven.surefire:common-junit4:jar:2.22.2:test (selected for test)
+[DEBUG]         org.apache.maven.surefire:common-junit3:jar:2.22.2:test (selected for test)
+[DEBUG]           org.apache.maven.surefire:surefire-api:jar:2.22.2:test (selected for test)
+[DEBUG]             org.apache.maven.surefire:surefire-logger-api:jar:2.22.2:test (selected for test)
+[DEBUG]         org.apache.maven.surefire:common-java5:jar:2.22.2:test (selected for test)
+[DEBUG]         org.apache.maven.shared:maven-shared-utils:jar:0.9:test (selected for test)
+[DEBUG]         org.apache.maven.surefire:surefire-api:jar:2.22.2:test (selected for test)
+[DEBUG]           org.apache.maven.surefire:surefire-logger-api:jar:2.22.2:test (selected for test)
+[DEBUG]       org.apache.maven.surefire:surefire-grouper:jar:2.22.2:test (selected for test)
+[DEBUG]       org.apache.maven.surefire:surefire-api:jar:2.22.2:test (selected for test)
+[DEBUG]         org.apache.maven.surefire:surefire-logger-api:jar:2.22.2:test (selected for test)
+[DEBUG]     org.apache.maven.surefire:surefire-api:jar:2.22.2:test (selected for test)
+[DEBUG]       org.apache.maven.surefire:surefire-logger-api:jar:2.22.2:test (selected for test)
+[DEBUG] Adding to surefire test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-junit47\2.22.2\surefire-junit47-2.22.2.jar Scope: test
+[DEBUG] Adding to surefire test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit48\2.22.2\common-junit48-2.22.2.jar Scope: test
+[DEBUG] Adding to surefire test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit4\2.22.2\common-junit4-2.22.2.jar Scope: test
+[DEBUG] Adding to surefire test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit3\2.22.2\common-junit3-2.22.2.jar Scope: test
+[DEBUG] Adding to surefire test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.2\surefire-api-2.22.2.jar Scope: test
+[DEBUG] Adding to surefire test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.2\surefire-logger-api-2.22.2.jar Scope: test
+[DEBUG] Adding to surefire test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-java5\2.22.2\common-java5-2.22.2.jar Scope: test
+[DEBUG] Adding to surefire test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.9\maven-shared-utils-0.9.jar Scope: test
+[DEBUG] Adding to surefire test classpath: C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.2\surefire-grouper-2.22.2.jar Scope: test
+[DEBUG] test classpath:  C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes  C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes  C:\Users\carlosteixeira\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar  C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar  C:\Users\carlosteixeira\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar  C:\Users\carlosteixeira\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar  C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar  C:\Users\carlosteixeira\.m2\repository\com\itextpdf\itextpdf\5.5.13.1\itextpdf-5.5.13.1.jar  C:\Users\carlosteixeira\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar  C:\Users\carlosteixeira\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar  C:\Users\carlosteixeira\.m2\repository\junit\junit\4.12\junit-4.12.jar  C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar  C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar  C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar  C:\Users\carlosteixeira\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar  C:\Users\carlosteixeira\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar  C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar  C:\Users\carlosteixeira\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar  C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar  C:\Users\carlosteixeira\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar  C:\Users\carlosteixeira\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar  C:\Users\carlosteixeira\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar
+[DEBUG] provider classpath:  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-junit47\2.22.2\surefire-junit47-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit48\2.22.2\common-junit48-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit4\2.22.2\common-junit4-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit3\2.22.2\common-junit3-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.2\surefire-api-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.2\surefire-logger-api-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-java5\2.22.2\common-java5-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.9\maven-shared-utils-0.9.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.2\surefire-grouper-2.22.2.jar
+[DEBUG] test(compact) classpath:  test-classes  classes  javafaker-1.0.2.jar  commons-lang3-3.5.jar  snakeyaml-1.23-android.jar  generex-1.0.2.jar  automaton-1.11-8.jar  snakeyaml-1.25.jar  itextpdf-5.5.13.1.jar  commons-io-2.5.jar  gson-2.8.6.jar  junit-4.12.jar  hamcrest-core-1.3.jar  rest-assured-3.3.0.jar  groovy-2.4.15.jar  groovy-xml-2.4.15.jar  httpclient-4.5.3.jar  httpcore-4.4.6.jar  commons-logging-1.2.jar  commons-codec-1.9.jar  httpmime-4.5.3.jar  hamcrest-library-1.3.jar  tagsoup-1.2.1.jar  json-path-3.3.0.jar  groovy-json-2.4.15.jar  rest-assured-common-3.3.0.jar  xml-path-3.3.0.jar  jaxb-api-2.2.12.jar  jaxb-osgi-2.2.10.jar  org.apache.sling.javax.activation-0.1.0.jar  activation-1.1.1.jar  cucumber-java-1.2.5.jar  cucumber-core-1.2.5.jar  cucumber-html-0.2.3.jar  cucumber-jvm-deps-1.0.5.jar  gherkin-2.12.2.jar  cucumber-junit-1.2.4.jar
+[DEBUG] provider(compact) classpath:  surefire-junit47-2.22.2.jar  common-junit48-2.22.2.jar  common-junit4-2.22.2.jar  common-junit3-2.22.2.jar  surefire-api-2.22.2.jar  surefire-logger-api-2.22.2.jar  common-java5-2.22.2.jar  maven-shared-utils-0.9.jar  surefire-grouper-2.22.2.jar
+[DEBUG] in-process classpath:  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-junit47\2.22.2\surefire-junit47-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit48\2.22.2\common-junit48-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit4\2.22.2\common-junit4-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit3\2.22.2\common-junit3-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.2\surefire-api-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.2\surefire-logger-api-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-java5\2.22.2\common-java5-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.9\maven-shared-utils-0.9.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.2\surefire-grouper-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\maven-surefire-common\2.22.2\maven-surefire-common-2.22.2.jar
+[DEBUG] in-process(compact) classpath:  surefire-junit47-2.22.2.jar  common-junit48-2.22.2.jar  common-junit4-2.22.2.jar  common-junit3-2.22.2.jar  surefire-api-2.22.2.jar  surefire-logger-api-2.22.2.jar  common-java5-2.22.2.jar  maven-shared-utils-0.9.jar  surefire-grouper-2.22.2.jar  maven-surefire-common-2.22.2.jar
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[DEBUG] Determined Maven Process ID 17896
+[DEBUG] boot classpath:  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-booter\2.22.2\surefire-booter-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.2\surefire-api-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.2\surefire-logger-api-2.22.2.jar  C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\test-classes  C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\classes  C:\Users\carlosteixeira\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar  C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar  C:\Users\carlosteixeira\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar  C:\Users\carlosteixeira\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar  C:\Users\carlosteixeira\.m2\repository\org\yaml\snakeyaml\1.25\snakeyaml-1.25.jar  C:\Users\carlosteixeira\.m2\repository\com\itextpdf\itextpdf\5.5.13.1\itextpdf-5.5.13.1.jar  C:\Users\carlosteixeira\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar  C:\Users\carlosteixeira\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar  C:\Users\carlosteixeira\.m2\repository\junit\junit\4.12\junit-4.12.jar  C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured\3.3.0\rest-assured-3.3.0.jar  C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy\2.4.15\groovy-2.4.15.jar  C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.15\groovy-xml-2.4.15.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar  C:\Users\carlosteixeira\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar  C:\Users\carlosteixeira\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar  C:\Users\carlosteixeira\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar  C:\Users\carlosteixeira\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\json-path\3.3.0\json-path-3.3.0.jar  C:\Users\carlosteixeira\.m2\repository\org\codehaus\groovy\groovy-json\2.4.15\groovy-json-2.4.15.jar  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\rest-assured-common\3.3.0\rest-assured-common-3.3.0.jar  C:\Users\carlosteixeira\.m2\repository\io\rest-assured\xml-path\3.3.0\xml-path-3.3.0.jar  C:\Users\carlosteixeira\.m2\repository\javax\xml\bind\jaxb-api\2.2.12\jaxb-api-2.2.12.jar  C:\Users\carlosteixeira\.m2\repository\com\sun\xml\bind\jaxb-osgi\2.2.10\jaxb-osgi-2.2.10.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\sling\org.apache.sling.javax.activation\0.1.0\org.apache.sling.javax.activation-0.1.0.jar  C:\Users\carlosteixeira\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar  C:\Users\carlosteixeira\.m2\repository\info\cukes\cucumber-junit\1.2.4\cucumber-junit-1.2.4.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-junit47\2.22.2\surefire-junit47-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit48\2.22.2\common-junit48-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit4\2.22.2\common-junit4-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-junit3\2.22.2\common-junit3-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\common-java5\2.22.2\common-java5-2.22.2.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\shared\maven-shared-utils\0.9\maven-shared-utils-0.9.jar  C:\Users\carlosteixeira\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.2\surefire-grouper-2.22.2.jar
+[DEBUG] boot(compact) classpath:  surefire-booter-2.22.2.jar  surefire-api-2.22.2.jar  surefire-logger-api-2.22.2.jar  test-classes  classes  javafaker-1.0.2.jar  commons-lang3-3.5.jar  snakeyaml-1.23-android.jar  generex-1.0.2.jar  automaton-1.11-8.jar  snakeyaml-1.25.jar  itextpdf-5.5.13.1.jar  commons-io-2.5.jar  gson-2.8.6.jar  junit-4.12.jar  hamcrest-core-1.3.jar  rest-assured-3.3.0.jar  groovy-2.4.15.jar  groovy-xml-2.4.15.jar  httpclient-4.5.3.jar  httpcore-4.4.6.jar  commons-logging-1.2.jar  commons-codec-1.9.jar  httpmime-4.5.3.jar  hamcrest-library-1.3.jar  tagsoup-1.2.1.jar  json-path-3.3.0.jar  groovy-json-2.4.15.jar  rest-assured-common-3.3.0.jar  xml-path-3.3.0.jar  jaxb-api-2.2.12.jar  jaxb-osgi-2.2.10.jar  org.apache.sling.javax.activation-0.1.0.jar  activation-1.1.1.jar  cucumber-java-1.2.5.jar  cucumber-core-1.2.5.jar  cucumber-html-0.2.3.jar  cucumber-jvm-deps-1.0.5.jar  gherkin-2.12.2.jar  cucumber-junit-1.2.4.jar  surefire-junit47-2.22.2.jar  common-junit48-2.22.2.jar  common-junit4-2.22.2.jar  common-junit3-2.22.2.jar  common-java5-2.22.2.jar  maven-shared-utils-0.9.jar  surefire-grouper-2.22.2.jar
+[DEBUG] Forking command line: cmd.exe /X /C ""C:\Program Files\Amazon Corretto\jdk11.0.6_10\bin\java" -jar C:\Users\CARLOS~1\AppData\Local\Temp\surefire15251137017651428665\surefirebooter16742233559702234556.jar C:\Users\carlosteixeira\AppData\Local\Temp\surefire15251137017651428665 2020-04-01T00-54-35_457-jvmRun1 surefire9591138935200396915tmp surefire_09612386764680305879tmp"
+
+0 Scenarios
+0 Steps
+0m5,766s
+
+[INFO] Running Scenario: Criar usuario sem CPF ou com campo em branco
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Criar usuario sem CPF ou com campo em branco
+[INFO] Running Scenario: Buscar Perfil de Pagamento por ID
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Buscar Perfil de Pagamento por ID
+[INFO] Running Scenario: Criar usuario sem o campo firstName ou campo em branco
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Criar usuario sem o campo firstName ou campo em branco
+[INFO] Running Scenario: Cancelar uma Subscription
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Cancelar uma Subscription
+[INFO] Running Scenario: Criar usuario com telefone invalido
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Criar usuario com telefone invalido
+[INFO] Running Scenario: Criar usuario
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.73 s <<< FAILURE! - in Scenario: Criar usuario
+[ERROR] Feature: Criar Usuario  Time elapsed: 0.73 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+[INFO] Running Scenario: Criar usuario com senha fora do padrao correto
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Criar usuario com senha fora do padrao correto
+[INFO] Running Scenario: Criar usuario sem o campo telefone ou campo em branco
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Criar usuario sem o campo telefone ou campo em branco
+[INFO] Running Scenario: Criar customer
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.73 s <<< FAILURE! - in Scenario: Criar customer
+[ERROR] Feature: Criar um Cliente  Time elapsed: 0.73 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+[INFO] Running Scenario: Alterar algum customer especifico
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Alterar algum customer especifico
+[INFO] Running Scenario: Criar usuario com cpf e cnpj invalido
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Criar usuario com cpf e cnpj invalido
+[INFO] Running Scenario: Realizar login
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.728 s <<< FAILURE! - in Scenario: Realizar login
+[ERROR] Feature: Realizar login  Time elapsed: 0.728 s  <<< ERROR!
+cucumber.runtime.CucumberException: Expected step: "a API deve retornar na response o codigo 404" got step: "faco uma chamada em "cadastro" apos chamo o "login" para poder criar um "customer""
+
+[INFO] Running Scenario: Criar uma Subscription
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Criar uma Subscription
+[INFO] Running Scenario: Buscar uma Subscription por ID
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.729 s <<< FAILURE! - in Scenario: Buscar uma Subscription por ID
+[ERROR] Feature: Subscriptions  Time elapsed: 0.729 s  <<< ERROR!
+cucumber.runtime.CucumberException: Expected step: "considerando que obtenho o idToken chamando o endpoint "login"" got step: "o serviço retorna a subscription exibindo o codigo 200"
+
+[INFO] Running Scenario: Validar se o usuario é assinante
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.728 s <<< FAILURE! - in Scenario: Validar se o usuario é assinante
+[ERROR] Feature: PayWall  Time elapsed: 0.728 s  <<< ERROR!
+cucumber.runtime.CucumberException: Expected step: "que realizo uma chamda no endpoint "login" e "payWall"" got step: "faco uma chamada em "cadastro" apos chamo o "login" para poder criar um "customer""
+
+[INFO] Running Scenario: Criar usuario sem o campo lastName ou campo em branco
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Criar usuario sem o campo lastName ou campo em branco
+[INFO] Running Scenario: Buscar os planos da Exame
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.728 s <<< FAILURE! - in Scenario: Buscar os planos da Exame
+[ERROR] Feature: Planos da Exame  Time elapsed: 0.728 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+[INFO] Running Scenario: Realizar a Criacao de um Perfil de Pagamento
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.728 s <<< FAILURE! - in Scenario: Realizar a Criacao de um Perfil de Pagamento
+[ERROR] Feature: Perfil Pagamento  Time elapsed: 0.728 s  <<< ERROR!
+cucumber.runtime.CucumberException: Expected step: "usar as seguintes info definidas logo apos chamar "postPaymentProfiles" para criar um PaymentProfile" got step: "o serviço retorna a subscription exibindo o codigo 200"
+
+[INFO] Running Scenario: Realizar login incorreto
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Realizar login incorreto
+[INFO] Running Scenario: Realizar logout
+[ERROR] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.729 s <<< FAILURE! - in Scenario: Realizar logout
+[ERROR] Feature: Realizar logout  Time elapsed: 0.729 s  <<< ERROR!
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+
+[INFO] Running Scenario: Criar usuario com telefone fora do padrao correto
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Criar usuario com telefone fora do padrao correto
+[INFO] Running Scenario: Buscar algum customer especifico
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Buscar algum customer especifico
+[INFO] Running Scenario: Realizar login com campo vazio
+[INFO] Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in Scenario: Realizar login com campo vazio
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Errors: 
+[ERROR]   Index 0 out of bounds for length 0
+[ERROR]   Index 0 out of bounds for length 0
+[ERROR]   Expected step: "que realizo uma chamda no endpoint "login" e "payWall"" got step: "faco uma chamada em "cadastro" apos chamo o "login" para poder criar um "customer""
+[ERROR]   Expected step: "usar as seguintes info definidas logo apos chamar "postPaymentProfiles" para criar um PaymentProfile" got step: "o serviço retorna a subscription exibindo o codigo 200"
+[ERROR]   Index 0 out of bounds for length 0
+[ERROR]   Expected step: "a API deve retornar na response o codigo 404" got step: "faco uma chamada em "cadastro" apos chamo o "login" para poder criar um "customer""
+[ERROR]   Index 0 out of bounds for length 0
+[ERROR]   Expected step: "considerando que obtenho o idToken chamando o endpoint "login"" got step: "o serviço retorna a subscription exibindo o codigo 200"
+[INFO] 
+[ERROR] Tests run: 8, Failures: 0, Errors: 8, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.978 s
+[INFO] Finished at: 2020-04-01T00:54:39-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project back: There are test failures.
+[ERROR] 
+[ERROR] Please refer to C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project back: There are test failures.
+
+Please refer to C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:215)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+Caused by: org.apache.maven.plugin.MojoFailureException: There are test failures.
+
+Please refer to C:\Users\carlosteixeira\Documents\Exame\QA\Automacao\Back\target\surefire-reports for the individual test results.
+Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+    at org.apache.maven.plugin.surefire.SurefireHelper.throwException (SurefireHelper.java:289)
+    at org.apache.maven.plugin.surefire.SurefireHelper.reportExecution (SurefireHelper.java:161)
+    at org.apache.maven.plugin.surefire.SurefirePlugin.handleSummary (SurefirePlugin.java:364)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked (AbstractSurefireMojo.java:1041)
+    at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute (AbstractSurefireMojo.java:857)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:137)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:210)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:156)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:148)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:117)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:81)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:56)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:128)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:305)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:192)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:105)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:957)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:289)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:193)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:62)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:566)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:282)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:225)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:406)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:347)
+[ERROR] 
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
